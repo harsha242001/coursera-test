@@ -1,0 +1,104 @@
+<style>
+	*{
+		box-sizing: border-box;
+	}
+	body{
+		background-color: white;
+	}
+	h1{
+		margin: 100px;
+		text-align: center;
+		font-family: Helvetica;
+		font-weight: bold;
+		
+		font-size: 180%;
+	}
+	section{
+		position: relative;
+		padding: 15px;
+		width: 100%;
+	}
+	p{
+		position: relative;
+		clear: right;
+	}
+	div{
+		position: relative;
+		background-color: gray;
+		border: 1px solid black;
+	}
+	.sub1{
+		float: right;
+		background-color: white;
+		padding: 6px;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 120%;
+		text-align: center;
+		margin: 0px;
+		border: 1px solid black;
+		width: 100px;
+	}
+	.sub2{
+		float: right;
+		background-color: red;
+		padding: 6px;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 120%;
+		text-align: center;
+		margin: 0px;
+		border: 1px solid black;
+		width: 100px;
+	}
+	.sub3{
+		float: right;
+		background-color: yellow;
+		padding: 6px;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 120%;
+		text-align: center;
+		margin: 0px;
+		border: 1px solid black;
+		width: 100px;
+	}
+	.content{
+		background-color: gray;
+		color: black;
+		height: 150px;
+		font-family: Helvetica;
+		padding: 5px;
+		margin: 2px;
+	}
+	/*desktop version*/
+	@media (min-width: 992px){
+		.column-lg-4 {
+			float: left;
+			width: 33.33%;
+		}
+	}
+	/*tab version*/
+	@media (min-width: 768px) and (max-width: 991px){
+		.colmn-md-6 {
+			float: left;
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.colmn-md-12 {
+			float: left;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	
+	/*mobile version*/
+	@media (max-width: 767px){
+		.colmn-sm-12 {
+			float: left;
+			width: 100%;
+		}
+	}
+</style>
