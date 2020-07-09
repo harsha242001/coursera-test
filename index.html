@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>mod 2 sol</title>
+</head>
+<style>
+	*{
+		box-sizing: border-box;
+	}
+	body{
+		background-color: white;
+	}
+	h1{
+		margin: 100px;
+		text-align: center;
+		font-family: Helvetica;
+		font-weight: bold;
+		
+		font-size: 180%;
+	}
+	section{
+		position: relative;
+		padding: 15px;
+		width: 100%;
+	}
+	p{
+		position: relative;
+		clear: right;
+	}
+	div{
+		position: relative;
+		background-color: gray;
+		border: 1px solid black;
+	}
+	.sub1{
+		float: right;
+		background-color: white;
+		padding: 6px;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 120%;
+		text-align: center;
+		margin: 0px;
+		border: 1px solid black;
+		width: 100px;
+	}
+	.sub2{
+		float: right;
+		background-color: red;
+		padding: 6px;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 120%;
+		text-align: center;
+		margin: 0px;
+		border: 1px solid black;
+		width: 100px;
+	}
+	.sub3{
+		float: right;
+		background-color: yellow;
+		padding: 6px;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 120%;
+		text-align: center;
+		margin: 0px;
+		border: 1px solid black;
+		width: 100px;
+	}
+	.content{
+		background-color: gray;
+		color: black;
+		height: 150px;
+		font-family: Helvetica;
+		padding: 5px;
+		margin: 2px;
+	}
+	/*desktop version*/
+	@media (min-width: 992px){
+		.column-lg-4 {
+			float: left;
+			width: 33.33%;
+		}
+	}
+	/*tab version*/
+	@media (min-width: 768px) and (max-width: 991px){
+		.colmn-md-6 {
+			float: left;
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.colmn-md-12 {
+			float: left;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	
+	/*mobile version*/
+	@media (max-width: 767px){
+		.colmn-sm-12 {
+			float: left;
+			width: 100%;
+		}
+	}
+</style>
+<body>
+
+<h1>menu</h1>
+<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+	<div>
+		<p class="sub1">chicken</p>
+		<p class="content">
+			 Lorem Ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quies nostrud exercitation ullamo laboris nisi ut aliquip ex ea commando consequat.
+			</p>
+	</div>
+</section>
+<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+	<div>
+		<p class="sub2">beef</p>
+		<p class="content">
+			 Lorem Ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quies nostrud exercitation ullamo laboris nisi ut aliquip ex ea commando consequat.
+			</p>
+	</div>
+</section>
+<section class="column-lg-4 colmn-md-12 colmn-sm-12">
+	<div>
+		<p class="sub3">sushi</p>
+		<p class="content">
+			 Lorem Ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quies nostrud exercitation ullamo laboris nisi ut aliquip ex ea commando consequat.
+			</p>
+	</div>
+
+
+
+
+</body>
+</html>
